@@ -24,3 +24,5 @@ Things you may want to cover:
 * ...
 
 # Testing the pipeline
+
+# Demonstrating the CI/CD Pipeline
