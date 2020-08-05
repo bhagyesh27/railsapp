@@ -20,8 +20,6 @@ task deploy: :local_environment do
 
    deploy do
       invoke :'git:clone'
-      in_directory './railsapp' do
-        invoke :'bundle:install'
-      end
+      invoke :'bundle:install'
    end
 end
